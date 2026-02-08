@@ -7,7 +7,7 @@ import { namehash } from 'viem';
 import { Card, CardHeader, CardContent, Button, Input, Select, Alert, Badge } from '@/components/ui';
 import { ensService } from '@/services/ensService';
 import { ENS_RESOLVER_ABI, SEPOLIA_ENS_CONFIG } from '@/lib/config';
-import type { UserPreferences } from '@defi-butler/types';
+import type { UserPreferences } from '@/types';
 
 interface PreferencesEditorProps {
   ensName: string;
@@ -202,7 +202,7 @@ export const PreferencesEditor: React.FC<PreferencesEditorProps> = ({
               onChange={(e) => setPrefs({ ...prefs, riskTolerance: e.target.value as UserPreferences['riskTolerance'] })}
               options={[
                 { value: 'conservative', label: 'Conservative (Aave, Compound, Morpho)' },
-                { value: 'moderate', label: 'Moderate (+ Beefy, Yearn)' },
+                { value: 'moderate', label: 'Moderate (+ Yearn)' },
                 { value: 'aggressive', label: 'Aggressive (+ Pendle, Silo)' },
               ]}
             />

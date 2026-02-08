@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { useAccount, useEnsName } from 'wagmi';
 import { sepolia } from 'wagmi/chains';
-import type { ENSProfile, UserPreferences } from '@defi-butler/types';
+import type { ENSProfile, UserPreferences } from '@/types';
 import { ensService } from '@/services/ensService';
 import { isValidEnsName } from '@/lib/utils';
 

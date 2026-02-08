@@ -5,7 +5,7 @@ import { useAccount, useChainId, useSwitchChain } from 'wagmi';
 import { mainnet, arbitrum, base, optimism } from 'wagmi/chains';
 import { Card, CardHeader, CardContent, Button, Input, Select, Alert, Badge, Loading } from '@/components/ui';
 import { getLiFiRoutes, executeLiFiRoute, formatRouteDisplay, type RouteQuote, type ExecutionStatus } from '@/services/lifiService';
-import type { UserPreferences } from '@defi-butler/types';
+import type { UserPreferences } from '@/types';
 
 const TOKEN_OPTIONS = [
   { value: 'USDC', label: 'USDC' },

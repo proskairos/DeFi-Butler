@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, Badge, RiskBadge, Button } from '@/components/ui';
-import type { YieldOpportunity } from '@defi-butler/types';
+import type { YieldOpportunity } from '@/types';
 import { formatApy, formatUsd, formatAddress, CHAIN_ID_TO_NAME } from '@/lib/utils';
 
 interface YieldCardProps {

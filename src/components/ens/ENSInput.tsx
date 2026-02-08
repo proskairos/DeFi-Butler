@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Input, Button, Alert } from '@/components/ui';
 import { isValidEnsName, formatEnsName } from '@/lib/utils';
 import { ensService } from '@/services/ensService';
-import type { ENSProfile } from '@defi-butler/types';
+import type { ENSProfile } from '@/types';
 
 interface ENSInputProps {
   onProfileLoaded: (profile: ENSProfile) => void;

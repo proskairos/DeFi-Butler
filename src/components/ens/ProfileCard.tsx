@@ -4,7 +4,7 @@ import React from 'react';
 import { useAccount } from 'wagmi';
 import { Card, CardHeader, CardContent, Badge, RiskBadge, Button } from '@/components/ui';
 import { formatAddress, formatEnsName } from '@/lib/utils';
-import type { ENSProfile } from '@defi-butler/types';
+import type { ENSProfile } from '@/types';
 
 interface ProfileCardProps {
   profile: ENSProfile;

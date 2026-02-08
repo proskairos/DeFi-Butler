@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
-import type { YieldOpportunity, YieldQueryParams, UserPreferences } from '@defi-butler/types';
+import type { YieldOpportunity, YieldQueryParams, UserPreferences } from '@/types';
 import { yieldService } from '@/services/yieldService';
 import { debounce } from '@/lib/utils';
 

@@ -11,7 +11,7 @@ import {
   ENS_RECORD_KEYS,
   DEFAULT_PREFERENCES,
   RISK_TOLERANCE_MAP,
-} from '@defi-butler/types';
+} from '@/types';
 import { SEPOLIA_ENS_CONFIG, ENS_REGISTRY_ABI, ENS_RESOLVER_ABI, ETH_REGISTRAR_ABI, sepoliaClient } from '@/lib/config';
 import { safeJsonParse } from '@/lib/utils';
 

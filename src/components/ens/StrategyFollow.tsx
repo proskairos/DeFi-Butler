@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Card, CardHeader, CardContent, Input, Button, Alert, Badge } from '@/components/ui';
 import { ensService } from '@/services/ensService';
 import { isValidEnsName, formatEnsName } from '@/lib/utils';
-import type { ENSProfile } from '@defi-butler/types';
+import type { ENSProfile } from '@/types';
 import { useAppStore } from '@/hooks';
 
 interface StrategyFollowProps {

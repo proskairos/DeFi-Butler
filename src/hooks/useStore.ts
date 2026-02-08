@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { ENSProfile, UserPreferences, YieldOpportunity } from '@defi-butler/types';
+import type { ENSProfile, UserPreferences, YieldOpportunity } from '@/types';
 
 // App state interface
 interface AppState {

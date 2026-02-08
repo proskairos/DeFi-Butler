@@ -8,7 +8,7 @@ import { IntentBuilder } from '@/components/lifi';
 import { YieldList } from '@/components/yield';
 import { Card, Alert, ConnectButton, SepoliaNotice, Logo, Button } from '@/components/ui';
 import { useENS, useAppStore } from '@/hooks';
-import type { ENSProfile } from '@defi-butler/types';
+import type { ENSProfile } from '@/types';
 
 export default function Home() {
   const { isConnected, address } = useAccount();

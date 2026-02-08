@@ -6,7 +6,7 @@ import type {
   IntentExecution,
   YieldOpportunity,
   UserPreferences,
-} from '@defi-butler/types';
+} from '@/types';
 import { lifiService } from '@/services/lifiService';
 import { yieldService } from '@/services/yieldService';
 import { generateId } from '@/lib/utils';

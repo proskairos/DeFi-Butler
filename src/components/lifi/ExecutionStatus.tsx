@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Badge, Button } from '@/components/ui';
-import type { IntentExecution, ExecutionStep } from '@defi-butler/types';
+import type { IntentExecution, ExecutionStep } from '@/types';
 import { formatAddress } from '@/lib/utils';
 
 interface ExecutionStatusProps {

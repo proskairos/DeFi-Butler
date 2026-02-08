@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardHeader, CardContent, Loading, Alert } from '@/components/ui';
 import { YieldCard } from './YieldCard';
 import { useYield } from '@/hooks';
-import type { UserPreferences } from '@defi-butler/types';
+import type { UserPreferences } from '@/types';
 
 interface YieldListProps {
   chainId?: number;

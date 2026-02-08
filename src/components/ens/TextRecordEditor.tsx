@@ -7,8 +7,8 @@ import { namehash } from 'viem';
 import { Card, CardHeader, CardContent, Button, Input, Alert, Badge } from '@/components/ui';
 import { ENS_RESOLVER_ABI, SEPOLIA_ENS_CONFIG } from '@/lib/config';
 import { ensService } from '@/services/ensService';
-import type { UserPreferences } from '@defi-butler/types';
-import { ENS_RECORD_KEYS, RISK_TOLERANCE_MAP } from '@defi-butler/types';
+import type { UserPreferences } from '@/types';
+import { ENS_RECORD_KEYS, RISK_TOLERANCE_MAP } from '@/types';
 
 interface TextRecordEditorProps {
   ensName: string;
