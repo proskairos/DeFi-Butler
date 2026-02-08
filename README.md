@@ -7,7 +7,7 @@ A hackathon project that combines **ENS** and **LI.FI** to create a powerful cro
 **DeFi Butler** solves the fragmentation problem in DeFi by providing:
 
 1. **ENS-Powered Profiles**: Store your risk tolerance, preferred chains, and protocol whitelists in your ENS text records
-2. **Dynamic Yield Discovery**: Query multiple sources (DefiLlama, Yearn, Beefy) to find the best yields
+2. **Dynamic Yield Discovery**: Query multiple sources (DefiLlama, Yearn) to find the best yields
 3. **LI.FI Composer Integration**: Bridge, swap, and deposit in a single atomic transaction
 4. **Social Strategy Following**: Follow other users' strategies by referencing their ENS name
 
@@ -50,7 +50,6 @@ com.yieldintent.strategyFollow: "vitalik.eth"  # Follow another user's strategy
 Aggregates yield data from:
 - **DefiLlama**: Comprehensive yield data across protocols
 - **Yearn Finance**: Vault yields
-- **Beefy Finance**: Multi-chain vault yields
 
 ### 3. LI.FI Composer Execution
 
@@ -133,7 +132,7 @@ cd apps/web && npm run build
 - **Cross-Chain**: LI.FI SDK
 - **ENS**: Viem ENS utilities
 - **State**: Zustand
-- **Data**: DefiLlama API, Yearn API, Beefy API
+- **Data**: DefiLlama API, Yearn API 
 
 ## Prize Requirements
 
@@ -169,4 +168,4 @@ MIT License - see LICENSE file for details
 - **ENS**: For the decentralized identity and text records system
 - **LI.FI**: For the powerful cross-chain execution infrastructure
 - **DefiLlama**: For comprehensive yield data
-- **Yearn/Beefy**: For vault yield APIs
+- **Yearn**: For vault yield APIs
