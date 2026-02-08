@@ -14,9 +14,7 @@ A hackathon project that combines **ENS** and **LI.FI** to create a powerful cro
 ## Architecture
 
 ```
-defi-butler/
-├── apps/
-│   └── web/                    # Next.js frontend
+defi-butler/                   # Next.js frontend
 │       ├── src/
 │       │   ├── app/           # Next.js app router
 │       │   ├── components/    # React components
@@ -31,9 +29,6 @@ defi-butler/
 │       │   │   └── yieldService.ts
 │       │   ├── lib/          # Utilities and config
 │       │   └── types/        # TypeScript types
-├── packages/
-│   └── types/                 # Shared types package
-└── contracts/                 # Smart contracts (future)
 ```
 
 ## Key Features
